@@ -8,7 +8,7 @@
 # You can test the image using `./builder-run.sh`. For instance:
 #   $ ./builder-run.sh ./build-backend.sh
 
-FROM golang:1.22-bullseye
+FROM golang:1.25rc1-bullseye
 
 ### Install NodeJS and yarn
 ENV NODE_VERSION="v22.14.0"
